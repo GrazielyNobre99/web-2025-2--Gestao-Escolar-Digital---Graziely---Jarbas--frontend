@@ -27,7 +27,7 @@ Esta aplicação busca alcançar os seguintes objetivos:
 * Gerar **Relatórios eficientes** e detalhados sobre desempenho e frequência.
 * **Melhorar o Desempenho dos Alunos** com base na análise contínua das informações e do progresso individual e coletivo.
 
-## Funcionalidades Chave (Próxima Fase)
+## Funcionalidades Chave
 
 * Cadastro e Gerenciamento de Alunos (Ficha personalizada, histórico e anotações).
 * Controle de Notas e Frequências por Disciplina e Turma.
