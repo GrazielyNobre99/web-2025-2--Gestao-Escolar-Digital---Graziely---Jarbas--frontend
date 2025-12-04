@@ -1,0 +1,8 @@
+/* layout specific overrides (kept minimal) */
+.main {
+  grid-area: main;
+  padding: 20px 30px;
+  margin-left: 0; /* Sidebar is positioned fixed */
+  background: #03223F;
+  min-height: calc(100vh - 120px);
+}

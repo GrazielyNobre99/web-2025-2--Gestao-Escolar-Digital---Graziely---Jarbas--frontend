@@ -1,0 +1,21 @@
+.header {
+  grid-area: header;
+  background: #010D23;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.nav { display:flex; gap:12px; }
+.button-nav {
+  background-color: #038BBB;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
