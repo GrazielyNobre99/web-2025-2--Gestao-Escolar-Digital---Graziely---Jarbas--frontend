@@ -37,7 +37,7 @@ export default function CadastroAluno(){
   function handleSubmit(e){
     e.preventDefault()
     console.log('Dados enviados:', form)
-    alert('Aluno adicionado (simulação). Veja console.')
+    alert('Aluno adicionado')
   }
 
   function handleReset(){

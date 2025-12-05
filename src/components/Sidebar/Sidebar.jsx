@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { FiHome, FiUser, FiCalendar, FiSettings, FiList } from 'react-icons/fi'
+import { FiHome, FiUser, FiCalendar, FiSettings, FiList, FiAlertCircle, FiDatabase, FiFile } from 'react-icons/fi'
 import './Sidebar.css'
 
 export default function Sidebar(){
@@ -49,12 +49,18 @@ export default function Sidebar(){
       <aside id="sidebar" ref={sidebarRef} className={open ? 'open sidebar' : 'sidebar'}>
         <div className="menu-header">Menu</div>
         <ul className="menu-topicos">
-          <li><button className="button-sidebar" onClick={()=>navigate('/cadastro-aluno')}><FiHome/> Cadastro Aluno</button></li>
-          <li><button className="button-sidebar" onClick={()=>navigate('/cadastro-disciplina')}><FiList/> Cadastro Disciplina</button></li>
-          <li><button className="button-sidebar" onClick={()=>navigate('/cadastro-turma')}><FiUser/> Cadastro Turma</button></li>
+          <li><button className="button-sidebar" onClick={()=>navigate('/dashboard')}><FiSettings/> Dashboard</button></li>
+          <li><button className="button-sidebar" onClick={()=>navigate('/alertas')}><FiAlertCircle/> Alertas</button></li>
+          <li><button className="button-sidebar" onClick={()=>navigate('/cadastro-aluno')}><FiDatabase/> Cadastro Aluno</button></li>
+          <li><button className="button-sidebar" onClick={()=>navigate('/cadastro-professores')}><FiDatabase/> Cadastro Professores</button></li>
+          <li><button className="button-sidebar" onClick={()=>navigate('/cadastro-disciplina')}><FiDatabase/> Cadastro Disciplina</button></li>
+          <li><button className="button-sidebar" onClick={()=>navigate('/cadastro-turma')}><FiDatabase/> Cadastro Turma</button></li>
+          <li><button className="button-sidebar" onClick={()=>navigate('/trabalhos-avaliativos')}><FiDatabase/> Trabalhos Avaliativos</button></li>
           <li><button className="button-sidebar" onClick={()=>navigate('/cadastro-nota')}><FiCalendar/> Cadastro Notas</button></li>
-          <li><button className="button-sidebar" onClick={()=>navigate('/relatorio-notas')}><FiSettings/> Relatório Notas</button></li>
-          <li><button className="button-sidebar" onClick={()=>navigate('/relatorio-alunos')}><FiSettings/> Relatório Alunos</button></li>
+          <li><button className="button-sidebar" onClick={()=>navigate('/usuarios')}><FiUser/> Usuários</button></li>
+          <li><button className="button-sidebar" onClick={()=>navigate('/relatorio-notas')}><FiFile/> Relatório Notas</button></li>
+          <li><button className="button-sidebar" onClick={()=>navigate('/relatorio-alunos')}><FiFile/> Relatório Alunos</button></li>
+          <li><button className="button-sidebar" onClick={()=>navigate('/relatorio-trabalhos')}><FiFile/> Relatório Trabalhos</button></li>
         </ul>
       </aside>
     </>
