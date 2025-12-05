@@ -11,6 +11,7 @@ export default function CadastroProfessores(){
         nascimento: '',
         cpf: '',
         Formação: '',
+        AreaConhecimento: '',
         rua: '',
         bairro: '',
         numResidencia: '',
@@ -45,6 +46,7 @@ export default function CadastroProfessores(){
             nascimento: '',
             cpf: '',
             Formação: '',
+            AreaConhecimento: '',
             rua: '',
             bairro: '',
             numResidencia: '',
@@ -84,6 +86,17 @@ export default function CadastroProfessores(){
                         <input id="cpf" value={form.cpf} onChange={handleChange} placeholder="999.999.999-99" required maxLength={14} />
                     </div>
 
+                    </div>
+                </div>
+
+                <div className="card">
+                    <h3>Formação</h3>
+                    <div className="grid-3">
+                    <div className="campo">
+                        <label htmlFor="AreaConhecimento">Área de Conhecimento:</label>
+                        <input id="AreaConhecimento" value={form.AreaConhecimento} onChange={handleChange} placeholder="Especialidade"/>
+                    </div>
+
                     <div className="campo">
                         <label htmlFor="formacao">Formação:</label>
                         <select id="formacao" value={form.formacao} onChange={handleChange}>
@@ -92,6 +105,17 @@ export default function CadastroProfessores(){
                         <option value="Doutorado">Doutorado</option>
                         </select>
                     </div>
+
+                    <div class="campo">
+                        <label htmlFor="Instituicao">Instituição de Graduação:</label>
+                        <input type="text" id="Instituicao" value={form.Instituicao} onChange={handleChange} placeholder="Instituição que se graduou"/>
+                    </div>
+
+                    <div className="campo">
+                        <label htmlFor="anoFormacao">Ano de Conclusão:</label>
+                        <input id="anoFormacao" type="date" value={form.anoFormacao} onChange={handleChange} required />
+                    </div>
+
                     </div>
                 </div>
 

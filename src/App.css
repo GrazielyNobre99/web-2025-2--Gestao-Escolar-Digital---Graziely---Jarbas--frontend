@@ -118,7 +118,7 @@ main, .main {
    FORMULÁRIO GLOBAL
 ================================ */
 
-.formAluno {
+.formAluno, .formProfessores {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -166,7 +166,7 @@ select {
 }
 
 /* Botões */
-.buttonAddAluno {
+.buttonAddAluno, .buttonAddProfessor {
     background: rgb(7, 94, 7);
     color: white;
     border: none;
