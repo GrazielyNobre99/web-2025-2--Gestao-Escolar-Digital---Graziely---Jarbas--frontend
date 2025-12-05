@@ -118,7 +118,7 @@ main, .main {
    FORMULÁRIO GLOBAL
 ================================ */
 
-.formAluno, .formProfessores {
+.formAluno, .formProfessores, .formDisciplina, .formPeriodoLetivo {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -137,7 +137,15 @@ label {
 input,
 select {
     padding: 8px;
-    height: 30px;
+    height: 18px;
+    border-radius: 5px;
+    border: 1px solid #a8a8a8;
+    background: #bab9bb;
+}
+
+.Opcoes{
+    padding: 8px;
+    height: 34px;
     border-radius: 5px;
     border: 1px solid #a8a8a8;
     background: #bab9bb;

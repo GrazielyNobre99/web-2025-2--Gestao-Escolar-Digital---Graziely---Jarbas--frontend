@@ -5,7 +5,10 @@ import CadastroAluno from '../pages/CadastroAluno/CadastroAluno'
 import Sobre from "../pages/Nav/Sobre"
 import Inicio from "../pages/Nav/Inicio"
 import Contato from "../pages/Nav/Contato"
+import Login from "../pages/Login/Login";
 import CadastroProfessores from "../pages/CadastroProfessores/CadastroProfessores"
+import CadastroDisciplina from '../pages/CadastroDisciplina/CadastroDisciplina'
+import CadastroPeriodoLetivo from '../pages/CadastroPeriodoLetivo/CadastroPeriodoLetivo'
 
 export default function AppRoutes(){
   return (
@@ -22,6 +25,10 @@ export default function AppRoutes(){
         <Route path="contato" element={<Contato />} />
         <Route path="cadastro-aluno" element={<CadastroAluno />} />
         <Route path="cadastro-professores" element={<CadastroProfessores />} />
+        <Route path="cadastro-periodo-letivo" element={<CadastroPeriodoLetivo />} />
+        <Route path="cadastro-disciplina" element={<CadastroDisciplina />} />
+        <Route path="/login" element={<Login />} />
+
 
         {/* 404 relacionado ao layout */}
         <Route path="*" element={<div style={{ padding: 20 }}>Página não encontrada</div>} />

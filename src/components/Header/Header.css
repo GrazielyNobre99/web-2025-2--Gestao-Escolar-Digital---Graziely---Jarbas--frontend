@@ -19,3 +19,8 @@
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.login-logo {
+    width: 0px;
+    margin: 0 auto 5px auto;
+}

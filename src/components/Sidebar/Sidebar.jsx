@@ -53,11 +53,13 @@ export default function Sidebar(){
           <li><button className="button-sidebar" onClick={()=>navigate('/alertas')}><FiAlertCircle/> Alertas</button></li>
           <li><button className="button-sidebar" onClick={()=>navigate('/cadastro-aluno')}><FiDatabase/> Cadastro Aluno</button></li>
           <li><button className="button-sidebar" onClick={()=>navigate('/cadastro-professores')}><FiDatabase/> Cadastro Professores</button></li>
+          <li><button className="button-sidebar" onClick={()=>navigate('/cadastro-periodo-letivo')}><FiDatabase/> Cadastro Período Letivo</button></li>
           <li><button className="button-sidebar" onClick={()=>navigate('/cadastro-disciplina')}><FiDatabase/> Cadastro Disciplina</button></li>
           <li><button className="button-sidebar" onClick={()=>navigate('/cadastro-turma')}><FiDatabase/> Cadastro Turma</button></li>
           <li><button className="button-sidebar" onClick={()=>navigate('/trabalhos-avaliativos')}><FiDatabase/> Trabalhos Avaliativos</button></li>
           <li><button className="button-sidebar" onClick={()=>navigate('/cadastro-nota')}><FiCalendar/> Cadastro Notas</button></li>
           <li><button className="button-sidebar" onClick={()=>navigate('/usuarios')}><FiUser/> Usuários</button></li>
+          <li><button className="button-sidebar" onClick={()=>navigate('/login')}><FiUser/> Demo Tela Login</button></li>
           <li><button className="button-sidebar" onClick={()=>navigate('/relatorio-notas')}><FiFile/> Relatório Notas</button></li>
           <li><button className="button-sidebar" onClick={()=>navigate('/relatorio-alunos')}><FiFile/> Relatório Alunos</button></li>
           <li><button className="button-sidebar" onClick={()=>navigate('/relatorio-trabalhos')}><FiFile/> Relatório Trabalhos</button></li>

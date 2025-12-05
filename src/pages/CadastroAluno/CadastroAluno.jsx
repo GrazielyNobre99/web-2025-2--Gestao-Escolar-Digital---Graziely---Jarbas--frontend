@@ -92,7 +92,7 @@ export default function CadastroAluno(){
 
               <div className="campo">
                 <label htmlFor="curso">Curso:</label>
-                <select id="curso" value={form.curso} onChange={handleChange}>
+                <select class="Opcoes" id="curso" value={form.curso} onChange={handleChange}>
                   <option value="RedesDeComputadores">Redes de Computadores</option>
                   <option value="CienciadaComputacao">Ciência da Computação</option>
                   <option value="EngenhariaDaComputacao">Engenharia da Computação</option>

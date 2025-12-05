@@ -35,7 +35,7 @@ export default function CadastroProfessores(){
       function handleSubmit(e){
         e.preventDefault()
         console.log('Dados enviados:', form)
-        alert('Aluno adicionado')
+        alert('Professor(a) adicionado')
       }
     
       function handleReset(){
@@ -99,7 +99,7 @@ export default function CadastroProfessores(){
 
                     <div className="campo">
                         <label htmlFor="formacao">Formação:</label>
-                        <select id="formacao" value={form.formacao} onChange={handleChange}>
+                        <select class="Opcoes" id="formacao" value={form.formacao} onChange={handleChange}>
                         <option value="Graduação">Graduação</option>
                         <option value="Mestrado">Mestrado</option>
                         <option value="Doutorado">Doutorado</option>
@@ -115,6 +115,12 @@ export default function CadastroProfessores(){
                         <label htmlFor="anoFormacao">Ano de Conclusão:</label>
                         <input id="anoFormacao" type="date" value={form.anoFormacao} onChange={handleChange} required />
                     </div>
+
+                     <div className="campo">
+                        <label htmlFor="anoEntrada">Inicio em nossa Instituição:</label>
+                        <input id="anoEntrada" type="date" value={form.anoEntrada} onChange={handleChange} required />
+                    </div>
+
 
                     </div>
                 </div>
