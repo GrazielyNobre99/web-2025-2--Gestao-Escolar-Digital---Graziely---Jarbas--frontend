@@ -1,6 +1,6 @@
 import React from "react";
 import "./Login.css";
-import demoLogo from "../../assets/demo-logo.png"; // coloque sua logo aqui
+import demoLogo from "../../assets/demo-logo.png";
 
 export default function Login() {
   return (

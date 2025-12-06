@@ -38,37 +38,61 @@ Esta aplicação busca alcançar os seguintes objetivos:
 
 * *Esta seção ainda será melhor definida, provavelmente serão: (Frontend: React/Vite; Backend: Node.js/Python; Banco de Dados: PostgreSQL).*
 
-## Como Executar o Projeto (Em Desenvolvimento)
+## Como Executar o Projeto 
 
-* *Esta seção será definida com as instruções de instalação quando o código começar a ser desenvolvido.*
+* *Instruções de instalação para execução.*
 Projeto React + Vite gerado automaticamente.
-Instruções rápidas:
 
-1. Instalar dependências:
-   npm install
-2. Rodar em modo dev:
-   npm run dev
-3. Build:
-   npm run build
+# Requisitos:
 
-Estrutura principal:
-- src/components: Header, Sidebar, Footer, Layout
-- src/pages/CadastroAluno: página do formulário convertida
-- src/hooks: hook com máscaras (telephone/cpf)
-- src/App.css: todo o CSS (adaptado do seu arquivo)
+Antes de começar, certifique-se de ter instalado:
+
+Node.js (LTS)
+https://nodejs.org/
+
+npm (instalado automaticamente com o Node)
+
+Git
+https://git-scm.com/
+
+Visual Studio Code (VS Code)
+https://code.visualstudio.com/
+
+# Extensões recomendadas no VS Code:
+
+ESLint
+
+Prettier – Code Formatter
+
+Reactjs Code Snippets
+
+# Clonar o repositório
+
+Abra o terminal ou Git Bash e execute:
+
+git clone https://github.com/GrazielyNobre99/web-2025-2--Gestao-Escolar-Digital---Graziely---Jarbas--frontend.git
+
+Abra a pasta do projeto usando o comando:
+
+cd web-2025-2--Gestao-Escolar-Digital---Graziely---Jarbas--frontend
+
+# Instalar dependências
+
+Execute o comando:
+
+npm install
+
+Isso instalará todas as dependências necessárias para o funcionamento do projeto.
+
+# Executar o projeto
+
+Inicie o servidor de desenvolvimento:
+
+npm run dev
+
+O terminal exibirá um endereço semelhante a:
+
+http://localhost:5173/
 
 
-Instruções rápidas:
-
-1. Instalar dependências:
-   npm install
-2. Rodar em modo dev:
-   npm run dev
-3. Build:
-   npm run build
-
-Estrutura principal:
-- src/components: Header, Sidebar, Footer, Layout
-- src/pages/CadastroAluno: página do formulário convertida
-- src/hooks: hook com máscaras (telephone/cpf)
-- src/App.css: todo o CSS (adaptado do seu arquivo)
+Abra o link no navegador para visualizar o projeto.
